@@ -1,1 +1,7 @@
-body { background: #001a33; color: white; font-family: Arial;}
+
+body { background:#00162b; color:white; font-family:Arial; margin:0; }
+header { background:#00264d; padding:30px; text-align:center; }
+nav a { color:white; margin:0 15px; text-decoration:none; }
+.content { background:#0d1b2a; padding:30px; margin:30px auto; width:80%; border-radius:8px; }
+.project-card { background:#112240; padding:20px; margin-bottom:20px; border-radius:8px; }
+.btn { background:#0059b3; color:white; padding:10px 15px; border-radius:5px; text-decoration:none; }
