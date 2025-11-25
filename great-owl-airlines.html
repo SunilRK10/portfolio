@@ -1,63 +1,121 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 <head>
-<meta charset='UTF-8'>
+<meta charset="UTF-8">
 <title>Great Owl Airlines – Market Analysis</title>
-<link rel='stylesheet' href='assets/style.css'>
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
-<header>
+<!-- NAVBAR -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="projects.html">Projects</a>
+</nav>
+
+<!-- HEADER (matches .header style) -->
+<div class="header">
   <h1>Launching a New Airline from Jaipur</h1>
-  <h2>A Data-Driven Market, Forecasting & Network Strategy Project</h2>
-  <nav>
-    <a href='index.html'>Home</a>
-    <a href='projects.html'>Projects</a>
-  </nav>
-</header>
+  <p class="subtitle">A Data-Driven Market, Forecasting & Network Strategy Project</p>
+</div>
 
-<section class='content'>
+<!-- MAIN CONTENT WRAPPED IN .container + .card -->
+<div class="container">
+  <div class="card">
 
-<h2>1. Overview</h2>
-<p>
-India’s aviation sector is expanding rapidly, yet Jaipur remains underserved internationally.
-This project evaluates whether a new airline — <strong>Great Owl Airlines</strong> — could
-successfully operate from Jaipur between 2026–2027.
-</p>
+    <h2>1. Project Background — Why Jaipur?</h2>
+    <p>
+      When I began this project, one question guided my entire research:
+      <strong>“Can Jaipur realistically support a new airline with sustainable international operations?”</strong>
+      <br><br>
+      India’s aviation market is growing aggressively, yet Jaipur—despite being a major tourism and business hub—
+      remains overshadowed by Delhi.
+      <br><br>
+      This gap presented the perfect analytical challenge:
+      <strong>Could a new carrier, Great Owl Airlines, capture untapped demand and operate profitably from Jaipur?</strong>
+    </p>
 
-<h2>2. Market Understanding</h2>
-<p>
-I analysed Jaipur’s catchment area, mapped passenger flows, and assessed competition from Delhi.
-Despite strong demand drivers, Jaipur lacks sufficient international connectivity.
-</p>
+    <h2>2. Market Understanding — Looking Beyond Raw Numbers</h2>
+    <p>
+      My first step was to understand <strong>who actually flies from Jaipur</strong> and, more importantly,
+      <strong>who doesn’t</strong>.
+      <br><br>
+      I mapped the entire catchment area, analysing:
+    </p>
 
-<h2>3. Forecasting Demand — Gravity + Time-Series</h2>
-<p><strong>Gravity Model demand estimate:</strong> 10,434 – 72,237 annual passengers</p>
-<p>
-<strong>Time-Series Forecast:</strong> New route introduction improves total traffic stability 
-and trend strength.
-</p>
+    <ul>
+      <li>Population distribution</li>
+      <li>Tourism flows</li>
+      <li>Corporate travel demand</li>
+      <li>Income levels and aviation propensity</li>
+    </ul>
 
-<h2>4. Airline Simulation Results</h2>
-<p>
-Using Airline Online, Great Owl Airlines grew to 13 international destinations. Asian routes 
-performed strongly, while London underperformed.
-</p>
+    <p>
+      A recurring pattern emerged — <strong>high-value passengers were leaking to Delhi.</strong>
+      <br><br>
+      This indicated something crucial:
+      <strong>The demand existed — but Jaipur’s supply didn’t.</strong>
+    </p>
 
-<h2>5. Financial Performance</h2>
-<ul>
-<li>2026 Profit: <strong>$10.9M</strong></li>
-<li>2027 Loss: <strong>$16M</strong> (maintenance + advertising overspend)</li>
-</ul>
+    <h2>3. Forecasting Demand — Gravity + Time-Series</h2>
+    <p>
+      A single forecasting method is often misleading, so I combined:
+    </p>
 
-<h2>6. Final Recommendation</h2>
-<p>
-The airline is viable with conditions: right-size aircraft, prioritise strong Asian markets,
-improve maintenance scheduling, and tighten cost control.
-</p>
+    <ul>
+      <li><strong>Gravity Model</strong> — structural demand estimation</li>
+      <li><strong>Time-Series Forecasting</strong> — trend + stability analysis</li>
+    </ul>
 
-<a class='btn' href='docs/Great-Owl-Airlines-Report.pdf'>Download Full Report (PDF)</a>
+    <p>
+      The Gravity Model suggested <strong>10,434–72,237 annual passengers</strong>.
+      <br><br>
+      Time-series showed that adding new international routes
+      <strong>stabilised Jaipur’s overall passenger trend</strong>.
+    </p>
 
-</section>
-</body>
-</html>
+    <h2>4. Airline Simulation — Building Great Owl Airlines</h2>
+    <p>
+      Using Airline Online, I simulated Great Owl Airlines with a fleet tailored to Jaipur.
+      <br><br>
+      Over two simulated years, the airline expanded to <strong>13 international destinations</strong>
+      — with Asian routes outperforming:
+    </p>
+
+    <ul>
+      <li>Dubai</li>
+      <li>Singapore</li>
+      <li>Bangkok</li>
+      <li>Kuala Lumpur</li>
+    </ul>
+
+    <p>
+      The London route underperformed, highlighting the need for <strong>right-sized aircraft and cost control</strong>.
+    </p>
+
+    <h2>5. Financial Performance</h2>
+    <ul>
+      <li><strong>2026 Profit: $10.9M</strong> — strong load factors + efficient scheduling</li>
+      <li><strong>2027 Loss: $16M</strong> — maintenance mis-timing + high advertising spend</li>
+    </ul>
+
+    <h2>6. Final Recommendation</h2>
+    <p>
+      The airline is <strong>viable</strong> with the right strategy:
+    </p>
+
+    <ul>
+      <li>Focus on Asian short–medium haul markets</li>
+      <li>Use right-sized aircraft</li>
+      <li>Improve MRO scheduling</li>
+      <li>Targeted digital marketing</li>
+    </ul>
+
+    <p>
+      Ultimately, Great Owl Airlines has a strong opportunity to become
+      <strong>Jaipur’s international gateway to Asia.</strong>
+    </p>
+
+    <a class="btn" href="docs/Great-Owl-Airlines-Report.pdf">Download Full Report (PDF)</a>
+
+  </
